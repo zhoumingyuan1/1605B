@@ -61,6 +61,7 @@ header .text .icon{
 section {
     width: 100%;
     flex:1;
+    overflow: auto;
 }
 .swiper-logo{
     width: 100%;
@@ -79,20 +80,20 @@ nav{
     height: 4rem;
     margin-top: 0.1rem;
 }
-nav ul{
+nav>ul{
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
-nav ul li{
+nav>ul>li{
     width: 20%;
     height: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-nav ul li img{
+nav>ul>li>img{
     width: 1rem;
     height: 1rem;
     border-radius: 0.5rem;
@@ -114,4 +115,45 @@ nav ul li img{
 .con .swiper-list .swiper-slide{
     width: 100%;
     height: 3rem;
+}
+.con_1{
+    width: 100%;
+    height: 100%;
+}
+.con_1 .list{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-wrap: nowrap
+}
+.con_1 .list li{
+    width: 50%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.con_1 .list li .top{
+    width: 50%;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.con_1 .list li .bottom{
+    width: 50%;
+    height: 3rem;
+}
+footer{
+    width: 100%;
+    height: 0.8rem;
+}
+footer>ul{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul li{
+    width: 20%;
+    height: 0.8rem;
 }
