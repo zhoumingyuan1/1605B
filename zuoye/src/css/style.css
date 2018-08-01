@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+body{
+    font-size: 0.35rem;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 1rem;
+    background:orange;
+    display: flex;
+}
+header .logo{
+    width: 0.9rem;
+    height: 0.9rem;
+    padding: 0.1rem;
+}
+header .logo img{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 0.18rem;
+}
+header .text{
+    flex: 1;
+    padding: 0.15rem;
+    position: relative;
+}
+header .text input{
+    width: 100%;
+    height:0.7rem;
+    border-radius: 0.15rem;
+    border: 0;
+    outline: none;
+    background: orangered;
+    color: #fff;
+    font-size: 0.3rem;
+    text-indent: 35%;
+}
+header .text .icon{
+    width: 0.7rem;
+    height: 0.7rem;
+    position: absolute;
+    left:30%;
+    top:0.3rem;
+    font-size: 0.35rem;
+    color:#fff;
+}
+section {
+    width: 100%;
+    flex:1;
+}
+.swiper-logo{
+    width: 100%;
+    height: 3rem;
+}
+.swiper-logo .swiper-slide{
+    width: 100%;
+    height: 3rem;
+}
+.swiper-logo .swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 4rem;
+    margin-top: 0.1rem;
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav ul li{
+    width: 20%;
+    height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav ul li img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+}
+.con{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.con .p{
+    width: 0.8rem;
+    height: 100%;;
+}
+.con .swiper-list{
+    width: 100%;
+    height: 100%;
+}
+.con .swiper-list .swiper-slide{
+    width: 100%;
+    height: 3rem;
+}
